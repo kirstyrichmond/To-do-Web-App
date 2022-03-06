@@ -51,6 +51,8 @@ h1 {
 
 .todo-form {
   margin-bottom: 32px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .todo-input {
@@ -105,9 +107,11 @@ h1 {
   border: 2px solid rgba(255, 180, 234, 1);
   width: 90%;
   border-radius: 4px;
+  width: 50vw;
 }
 
 .todo-button.edit {
+  border-radius: 4px;
   background: linear-gradient(
     270deg,
     rgba(199, 93, 141, 1) 0%,
@@ -140,7 +144,11 @@ h1 {
 
   padding: 16px;
   border-radius: 5px;
-  width: 90%;
+  width: 75vw;
+  min-width: 300px;
+  max-width: 550px;
+  overflow: scroll;
+  
 }
 
 .icons {
@@ -157,4 +165,13 @@ h1 {
 .edit-icon {
   color: #fff;
   margin-right: 10px;
+}
+
+/* .is-important, .not-important {
+  margin-right: 10px;
+} */
+
+.draggable {
+  /* margin: 0 auto; */
+  /* translate: 0; */
 }

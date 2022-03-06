@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Todo from "./Todo";
 import TodoForm from "./TodoForm";
 
+
 function TodoList() {
   const [todos, setTodos] = useState([]);
   const [status, setStatus] = useState("all");
@@ -25,7 +26,7 @@ function TodoList() {
   }, []);
 
   useEffect(() => {
-    filterHandler();
+    filterTodo();
     saveLocalTodos();
   }, [todos, status]);
 
@@ -66,7 +67,7 @@ function TodoList() {
     setTodos(updatedTodos);
   };
 
-  const filterHandler = () => {
+  const filterTodo = () => {
     switch (status) {
       case "completed":
         setFilteredTodos(todos.filter((todo) => todo.isComplete === true));
@@ -89,6 +90,8 @@ function TodoList() {
         removeTodo={removeTodo}
         updateTodo={updateTodo}
         filteredTodos={filteredTodos}
+        getLocalTodos={getLocalTodos}
+        saveLocalTodos={saveLocalTodos}
       />
     </div>
   );
