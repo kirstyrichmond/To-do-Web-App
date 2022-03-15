@@ -12,11 +12,11 @@ The user can click on a task if it has been completed. There is also a drag and 
 
 #### Created with:
 
-![image](https://user-images.githubusercontent.com/90627497/158431047-e178d3e9-ae3a-4709-ac60-16e5b0a4bc4e.png)
+![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 #### Hosted with:
 
-![image](https://user-images.githubusercontent.com/90627497/158431087-0cb4ea41-2d15-4eb6-a8a4-0751e542d875.png)
+![image](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 ## Set up
 
