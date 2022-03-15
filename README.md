@@ -1,4 +1,4 @@
-# To Do Web App
+# To Do Web App :spiral_notepad:
 
 Created by Kirsty Richmond.
 
